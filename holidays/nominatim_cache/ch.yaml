@@ -1,0 +1,18 @@
+---
+place_id: '567015'
+licence: Data © OpenStreetMap contributors, ODbL 1.0. http://www.openstreetmap.org/copyright
+osm_type: node
+osm_id: '240048174'
+lat: '46.346224'
+lon: '9.1770244'
+display_name: Distretto di Moesa, Graubünden, Schweiz
+address:
+  country: Schweiz
+  country_code: ch
+  # county: Distretto di Moesa
+  # state: Graubünden
+boundingbox:
+  - '45.066224'
+  - '47.626224'
+  - '7.8970244'
+  - '10.4570244'

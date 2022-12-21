@@ -1,0 +1,43 @@
+---
+
+_nominatim_url: 'https://nominatim.openstreetmap.org/search?format=json&country=Liechtenstein&zoom=18&addressdetails=1&limit=1&accept-language=de'
+
+PH:  # https://de.wikipedia.org/wiki/Feiertage_in_Liechtenstein
+  - {'name': 'Neujahrstag', 'fixed_date': [1, 1]}
+  - {'name': 'Heilige Drei Könige', 'fixed_date': [1, 6]}
+  - {'name': 'Maria Lichtmess', 'fixed_date': [2, 2]}
+  - {'name': 'Josefitag', 'fixed_date': [3, 19]}
+  - {'name': 'Ostermontag', 'variable_date': easter, 'offset': 1}
+  - {'name': 'Tag der Arbeit', 'fixed_date': [5, 1]}
+  - {'name': 'Christi Himmelfahrt', 'variable_date': easter, 'offset': 39}
+  - {'name': 'Pfingstmontag', 'variable_date': easter, 'offset': 50}
+  - {'name': 'Fronleichnam', 'variable_date': easter, 'offset': 60}
+  - {'name': 'Staatsfeiertag / Mariä Himmelfahrt', 'fixed_date': [8, 15]}
+  - {'name': 'Mariä Geburt', 'fixed_date': [9, 8]}
+  - {'name': 'Allerheiligen', 'fixed_date': [11, 1]}
+  - {'name': 'Mariä Empfängnis', 'fixed_date': [12, 8]}
+  - {'name': 'Christtag', 'fixed_date': [12, 25]}
+  - {'name': 'Stefanstag', 'fixed_date': [12, 26]}
+SH:  # https://www.llv.li/files/sa/schulferienkalender-2021-24_web.pdf
+  - name: Sportferien
+    '2022': [2, 26, 3, 6]
+    '2023': [2, 18, 2, 26]
+  - name: Osterferien
+    '2022': [4, 14, 5, 1]
+    '2023': [4, 6, 4, 23]
+  - name: Auffahrt
+    '2022': [5, 27, 5, 27]
+    '2023': [5, 19, 5, 19]
+  - name: Fronleichnam
+    '2022': [6, 17, 6, 17]
+    '2023': [6, 9, 6, 9]
+  - name: Sommerferien
+    '2022': [7, 2, 8, 16]
+    '2023': [7, 8, 8, 20]
+  - name: Herbstferien
+    '2022': [10, 1, 10, 16]
+    '2023': [10, 7, 10, 22]
+  - name: Weihnachtsferien
+    '2021': [12, 24, 1, 8]
+    '2022': [12, 24, 1, 8]
+    '2023': [12, 23, 1, 7]

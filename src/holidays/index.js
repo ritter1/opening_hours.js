@@ -19,6 +19,7 @@ export { default as hu } from "./hu.yaml";
 export { default as ie } from "./ie.yaml";
 export { default as it } from "./it.yaml";
 export { default as jp } from "./jp.yaml";
+export { default as li } from "./li.yaml";
 export { default as nl } from "./nl.yaml";
 export { default as no } from "./no.yaml";
 export { default as nz } from "./nz.yaml";

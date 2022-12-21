@@ -21,6 +21,8 @@ git rebase upstream/master
 
 make check-holidays
 
+# empty build folder!
+
 npm run build
 
 npm login
